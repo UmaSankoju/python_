@@ -1,0 +1,30 @@
+leadmasters-exam/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── auth.py
+│   │   ├── deps.py
+│   │   ├── routes/
+│   │   │   ├── auth_routes.py
+│   │   │   ├── exam_routes.py
+│   │   └── seed_questions.py
+│   ├── requirements.txt
+│   └── README.md
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── src/
+        ├── main.jsx
+        ├── App.jsx
+        ├── api.js
+        ├── hooks/useCountdown.js
+        └── pages/
+            ├── Login.jsx
+            ├── Register.jsx
+            ├── Start.jsx
+            ├── Exam.jsx
+            └── Result.jsx
