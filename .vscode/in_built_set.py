@@ -48,4 +48,6 @@ print()
 print("ISDISJOINT")
 print(example_set1.isdisjoint(example_set2))
 print(example_set2.isdisjoint(example_set1))
-
+print()
+print("UPDATE")
+print(example_set1.update(example_set2))
