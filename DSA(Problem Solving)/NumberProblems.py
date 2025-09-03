@@ -85,7 +85,6 @@ else:
     print(n,"not a neon number") 
 
 ##Automarphic Number##
-
 n=int(input("enter a number:"))  
 temp=n
 m=n**2
@@ -99,7 +98,6 @@ if temp==last_digits:
     print("automarphic") 
 else:
     print("not automarphic")
-       
 ##composite numbers## 
 n=int(input("enter a number:"))
 for i in range(2,n):
