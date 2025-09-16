@@ -1,27 +1,5 @@
-list1 =  [10, -3, 23, 45, 700, -300]
-falg = False
-for i in range(0, len(list1)-1):
-    for j in range(0, len(list1)-1-i):
-        if list1[j] > list1[j+1]:
-            falg = True
-            list1[j], list1[j+1] = list1[j+1], list1[j]
-    if falg == False:
-        break
-    
-    print(list1)
-    
-    
-list1 = [10, -3, 23, 45, 700,5, 5, -300]
-searc_element = 5
-flag = False
-for i in range(len(list1)):
-    if list1[i] == searc_element:
-        flag = True
-        print(i)
-if flag == False:
-    print("not found")
-    
-    
+
+       
 # Assignment:
 # Can you wrtie bubble sort for decending order
 
