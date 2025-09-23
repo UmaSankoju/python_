@@ -1,65 +1,65 @@
-list1 = [10, 20, 30, 10, 10]
-dict1 ={}
-for i in list1:
-    if i not in dict1:
-        dict1[i] = 1
-    else:
-        dict1[i] += 1
-print(dict1)
-print("unique elements:")
-for key, value in dict1.items():
-    if value == 1:
-        print(key,)
+# list1 = [10, 20, 30, 10, 10]
+# dict1 ={}
+# for i in list1:
+#     if i not in dict1:
+#         dict1[i] = 1
+#     else:
+#         dict1[i] += 1
+# print(dict1)
+# print("unique elements:")
+# for key, value in dict1.items():
+#     if value == 1:
+#         print(key,)
     
     
-list2 = ["red", "green", "purple", "red", "black","green", "red"]
-dict2 = {}
-for i in list2:
-    if i not in dict2:
-        dict2[i] = 1
-    else:
-        dict2[i] += 1
-for key, value in dict2.items():
-    if value % 2 == 0:
-        print("using this", key, "you can sustained")
+# list2 = ["red", "green", "purple", "red", "black","green", "red"]
+# dict2 = {}
+# for i in list2:
+#     if i not in dict2:
+#         dict2[i] = 1
+#     else:
+#         dict2[i] += 1
+# for key, value in dict2.items():
+#     if value % 2 == 0:
+#         print("using this", key, "you can sustained")
 
 
-num1 = 34571
-list1 = []
-while num1 > 0:
-    digit = num1 % 10
-    list1.append(digit)
-    num1 = num1 // 10
+# num1 = 34571
+# list1 = []
+# while num1 > 0:
+#     digit = num1 % 10
+#     list1.append(digit)
+#     num1 = num1 // 10
     
-for i in range(min(list1), max(list1)+1):
-    if i  not in list1:
-        print(i)
+# for i in range(min(list1), max(list1)+1):
+#     if i  not in list1:
+#         print(i)
         
 
-list3 = [[1, 2, 3], [-3, 4, 5, 6], [42, 33]]
-sum = 0
-for i in list3:
-    for j in i:
-        sum += j
+# list3 = [[1, 2, 3], [-3, 4, 5, 6], [42, 33]]
+# sum = 0
+# for i in list3:
+#     for j in i:
+#         sum += j
         
-    print(sum)
+#     print(sum)
     
-list4 = [20, 15, 26, 2, 98, 6]
-list5 = sorted(list4)
-list6 = []
-for i in list4:
-    for j in  range(len(list5)):
-        if i == list5[j]:
-            list6.append(j+1)
-            break
-print(list6)
+# list4 = [20, 15, 26, 2, 98, 6]
+# list5 = sorted(list4)
+# list6 = []
+# for i in list4:
+#     for j in  range(len(list5)):
+#         if i == list5[j]:
+#             list6.append(j+1)
+#             break
+# print(list6)
 
-##In-Built
-list7 = []
-for i in list4:
-    list7.append(list5.index(i)+1)
+# ##In-Built
+# list7 = []
+# for i in list4:
+#     list7.append(list5.index(i)+1)
             
-print(list7)
+# print(list7)
 
 ### Nested lists ###
 ## Replacing All Elements With Zer0 ##
