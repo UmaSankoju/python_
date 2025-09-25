@@ -122,4 +122,105 @@ for i in range(n):
     list7[i][i] = 0
 print(list7)
 
+## Printing Only Diagonal Elements in A list
 
+list8 = [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+n = len(list8)
+sum = 0
+for i in range(len(list8)):
+    for j in range(len(list8[i])):
+        if (i == j) and (i + j == n - 1):
+            sum += 2 *list8[i][j]
+            print(list8[i][j], end = " ")
+        elif i == j or i + j == n -1 :
+            sum += list8[i][j]
+            print(list8[i][j], end = " ")
+            
+        else:
+            print(" ", end = " ")
+    print()
+print(sum)
+
+## Printing Boundary Elements 
+# for i in range (len(list8)):
+#     for j in range(len(list8[i])):
+#         if i == 0 or j == 0 or i == len(list8)-1 or j == len(list8[i])-1:
+#             print(list8[i][j], end = " ")
+#         else:
+#             print(" ", end = " ")
+#     print()
+    
+## Addition Of Two Matrix
+
+matrix1 = [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]
+
+matrix2 = [[1, 0, 0],
+           [0, 1, 0],
+           [0, 0, 1]]
+
+result_matrix = []
+for i in range(len(matrix1)):
+    list1 = []
+    for j in range(len(matrix1)):
+        list1.append(matrix1[i][j] + matrix2[i][j])
+    result_matrix.append(list1)
+print(result_matrix)
+
+## Identity Matrix Check
+
+matrix3 = [[1, 0, 0],
+           [0, 1, 0],
+           [2, 0, 1]]
+flag = True
+for i in range(len(matrix3)):
+    for j in range(len(matrix3[i])):
+        if i == j:
+            if matrix3[i][j] != 1:
+                flag = False
+        else:
+            if matrix3[i][j] != 0:
+                flag = False
+if flag:
+    print("identity matrix")
+else:
+    print("not a identity matrix")
+        
+                
+            
+## Matrix Multiplication
+matrix1 = [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]
+
+matrix2 = [[1, 0, 0],
+           [0, 1, 0],
+           [0, 0, 1]]
+n = len(matrix1)
+result_matrix = []
+for i in range(n):
+    list1 = []
+    for j in range(n):
+        result = 0
+        for k in range(n):
+           result += matrix1[i][k]*matrix2[k][j]
+        list1.append(result)
+    result_matrix.append(list1)
+print(result_matrix)
+
+## Transpose Of a Matrix
+
+matrix5 = [[1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9]]
+
+n = len(matrix5)
+for i in range(n):
+    for j in range(len(matrix5[i])):
+        if i > j:
+            matrix5[i][j], matrix5[j][i] = matrix5[j][i], matrix5[i][j]
+            
+print(matrix5)
