@@ -14,7 +14,7 @@ try:
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="",#password
+        password="Sankojuuma@25",
         database="tkinter",
         autocommit=False
     )
@@ -35,7 +35,7 @@ def csv_file_upload():
         
         with open(filename, "r") as f:
             data = csv.reader(f)
-            next(data)  # skip header
+            next(data)  
             
             for row in data:
                 name = row[0].strip()

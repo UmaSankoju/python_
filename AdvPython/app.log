@@ -1,0 +1,18 @@
+2025-11-21 18:16:20,143 - INFO - package: mysql.connector.plugins
+2025-11-21 18:16:20,144 - INFO - plugin_name: caching_sha2_password
+2025-11-21 18:16:20,144 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-21 18:16:20,222 - INFO - Connected to MySQL database successfully.
+2025-11-21 18:16:21,618 - INFO - Grid displayed successfully.
+2025-11-21 18:16:40,060 - INFO - Record added: Name=Rishi, Age=25, Grade=A
+2025-11-21 18:16:40,066 - INFO - Grid displayed successfully.
+2025-11-24 11:02:18,590 - INFO - package: mysql.connector.plugins
+2025-11-24 11:02:18,591 - INFO - plugin_name: caching_sha2_password
+2025-11-24 11:02:18,591 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-24 11:02:18,606 - ERROR - MySQL Connection Error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-11-29 13:34:03,692 - INFO - package: mysql.connector.plugins
+2025-11-29 13:34:03,693 - INFO - plugin_name: caching_sha2_password
+2025-11-29 13:34:03,693 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-29 13:34:03,780 - INFO - Connected to MySQL database successfully.
+2025-11-29 13:34:04,453 - INFO - Grid displayed successfully.
+2025-11-29 13:34:33,405 - INFO - Record added: Name=rishi, Age=26, Grade=B
+2025-11-29 13:34:33,407 - INFO - Grid displayed successfully.
